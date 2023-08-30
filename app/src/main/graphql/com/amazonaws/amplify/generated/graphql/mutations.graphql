@@ -1,0 +1,142 @@
+# this is an auto generated file. This will be overwritten
+mutation CreateReview(
+  $input: CreateReviewInput!
+  $condition: ModelReviewConditionInput
+) {
+  createReview(input: $input, condition: $condition) {
+    id
+    username
+    locationTitle
+    locationAddress
+    description
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}
+mutation UpdateReview(
+  $input: UpdateReviewInput!
+  $condition: ModelReviewConditionInput
+) {
+  updateReview(input: $input, condition: $condition) {
+    id
+    username
+    locationTitle
+    locationAddress
+    description
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}
+mutation DeleteReview(
+  $input: DeleteReviewInput!
+  $condition: ModelReviewConditionInput
+) {
+  deleteReview(input: $input, condition: $condition) {
+    id
+    username
+    locationTitle
+    locationAddress
+    description
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}
+mutation CreateLocation(
+  $input: CreateLocationInput!
+  $condition: ModelLocationConditionInput
+) {
+  createLocation(input: $input, condition: $condition) {
+    address
+    title
+    latlong
+    id
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}
+mutation UpdateLocation(
+  $input: UpdateLocationInput!
+  $condition: ModelLocationConditionInput
+) {
+  updateLocation(input: $input, condition: $condition) {
+    address
+    title
+    latlong
+    id
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}
+mutation DeleteLocation(
+  $input: DeleteLocationInput!
+  $condition: ModelLocationConditionInput
+) {
+  deleteLocation(input: $input, condition: $condition) {
+    address
+    title
+    latlong
+    id
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}
+mutation CreateFeedback(
+  $input: CreateFeedbackInput!
+  $condition: ModelFeedbackConditionInput
+) {
+  createFeedback(input: $input, condition: $condition) {
+    id
+    feedbackText
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}
+mutation UpdateFeedback(
+  $input: UpdateFeedbackInput!
+  $condition: ModelFeedbackConditionInput
+) {
+  updateFeedback(input: $input, condition: $condition) {
+    id
+    feedbackText
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}
+mutation DeleteFeedback(
+  $input: DeleteFeedbackInput!
+  $condition: ModelFeedbackConditionInput
+) {
+  deleteFeedback(input: $input, condition: $condition) {
+    id
+    feedbackText
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}

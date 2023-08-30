@@ -1,0 +1,115 @@
+# this is an auto generated file. This will be overwritten
+subscription OnCreateReview {
+  onCreateReview {
+    id
+    username
+    locationTitle
+    locationAddress
+    description
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}
+subscription OnUpdateReview {
+  onUpdateReview {
+    id
+    username
+    locationTitle
+    locationAddress
+    description
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}
+subscription OnDeleteReview {
+  onDeleteReview {
+    id
+    username
+    locationTitle
+    locationAddress
+    description
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}
+subscription OnCreateLocation {
+  onCreateLocation {
+    address
+    title
+    latlong
+    id
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}
+subscription OnUpdateLocation {
+  onUpdateLocation {
+    address
+    title
+    latlong
+    id
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}
+subscription OnDeleteLocation {
+  onDeleteLocation {
+    address
+    title
+    latlong
+    id
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}
+subscription OnCreateFeedback {
+  onCreateFeedback {
+    id
+    feedbackText
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}
+subscription OnUpdateFeedback {
+  onUpdateFeedback {
+    id
+    feedbackText
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}
+subscription OnDeleteFeedback {
+  onDeleteFeedback {
+    id
+    feedbackText
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}

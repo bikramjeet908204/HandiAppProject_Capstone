@@ -1,0 +1,181 @@
+# this is an auto generated file. This will be overwritten
+query GetReview($id: ID!) {
+  getReview(id: $id) {
+    id
+    username
+    locationTitle
+    locationAddress
+    description
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}
+query ListReviews(
+  $filter: ModelReviewFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listReviews(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      id
+      username
+      locationTitle
+      locationAddress
+      description
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+    }
+    nextToken
+    startedAt
+  }
+}
+query SyncReviews(
+  $filter: ModelReviewFilterInput
+  $limit: Int
+  $nextToken: String
+  $lastSync: AWSTimestamp
+) {
+  syncReviews(
+    filter: $filter
+    limit: $limit
+    nextToken: $nextToken
+    lastSync: $lastSync
+  ) {
+    items {
+      id
+      username
+      locationTitle
+      locationAddress
+      description
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+    }
+    nextToken
+    startedAt
+  }
+}
+query GetLocation($id: ID!) {
+  getLocation(id: $id) {
+    address
+    title
+    latlong
+    id
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}
+query ListLocations(
+  $filter: ModelLocationFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listLocations(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      address
+      title
+      latlong
+      id
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+    }
+    nextToken
+    startedAt
+  }
+}
+query SyncLocations(
+  $filter: ModelLocationFilterInput
+  $limit: Int
+  $nextToken: String
+  $lastSync: AWSTimestamp
+) {
+  syncLocations(
+    filter: $filter
+    limit: $limit
+    nextToken: $nextToken
+    lastSync: $lastSync
+  ) {
+    items {
+      address
+      title
+      latlong
+      id
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+    }
+    nextToken
+    startedAt
+  }
+}
+query GetFeedback($id: ID!) {
+  getFeedback(id: $id) {
+    id
+    feedbackText
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}
+query ListFeedbacks(
+  $filter: ModelFeedbackFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listFeedbacks(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      id
+      feedbackText
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+    }
+    nextToken
+    startedAt
+  }
+}
+query SyncFeedbacks(
+  $filter: ModelFeedbackFilterInput
+  $limit: Int
+  $nextToken: String
+  $lastSync: AWSTimestamp
+) {
+  syncFeedbacks(
+    filter: $filter
+    limit: $limit
+    nextToken: $nextToken
+    lastSync: $lastSync
+  ) {
+    items {
+      id
+      feedbackText
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+    }
+    nextToken
+    startedAt
+  }
+}

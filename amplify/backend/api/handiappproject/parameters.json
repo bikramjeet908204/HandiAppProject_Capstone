@@ -1,0 +1,12 @@
+{
+  "AppSyncApiName": "handiappproject",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authhandiappprojecta24158eb",
+      "Outputs.UserPoolId"
+    ]
+  },
+  "AuthModeLastUpdated": "2022-03-31T00:23:18.536Z"
+}

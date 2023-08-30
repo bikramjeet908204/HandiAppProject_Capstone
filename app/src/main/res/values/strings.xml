@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">BottomNavigation</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Home</string>
+    <string name="my_reviews">Reviews</string>
+    <string name="near_me">Near Me</string>
+    <string name="home">Home</string>
+    <string name="search_here">Search</string>
+    <string name="app_name2">Login</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="app_name3">ViewReviewFinal</string>
+    <string name="sort">Sort</string>
+    <string name="view_reviews">View Reviews</string>
+    <string name="filter">Filter</string>
+    <string name="ramps">Ramps</string>
+    <string name="disabled_parking_stall">Disabled Parking Stall</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="nearby_heading">Nearby Places</string>
+    <string name="place1">Walmart</string>
+    <string name="place2">BestBuy</string>
+    <string name="place3">DQ</string>
+    <string name="place4">barBURRITO</string>
+    <string name="place5">Chester Chicken</string>
+    <string name="place6">Dominos Pizza</string>
+    <string name="place7">Spicy Chef</string>
+    <string name="place8">Mucho Burrito</string>
+    <string name="place9">Shawarma Place</string>
+    <string name="place10">OPA</string>
+    <string name="place11">Veggie King</string>
+    <string name="back2home_nearby">back</string>
+    <string name="API_KEY">AIzaSyDfEkqVY4To9F1q9zmwm-BArnL-Pf49D-g</string>
+</resources>
